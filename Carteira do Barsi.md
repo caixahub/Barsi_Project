@@ -1,3 +1,7 @@
+```python
+Projeto Ficando Rico com o Barsi...
+
+```
 
 ```python
 import numpy as np
