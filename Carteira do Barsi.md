@@ -44,24 +44,7 @@ df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -461,25 +444,6 @@ df
 
 
 
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-
-    .dataframe thead tr:last-of-type th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -820,20 +784,7 @@ df[['Adj Close']].describe()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead tr th {
-        text-align: left;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr>
@@ -982,9 +933,9 @@ stocks = ["BBAS3.SA", "IRBR3.SA", "UNIP6.SA", "KLBN11.SA", "TAEE11.SA", "TASA4.S
 plot_data2(normalize_data(df['Adj Close'][stocks]),stocks,title = "Normalized Stock Prices", ylabel = 'Cummulative return',y=1)
 ```
 
-
+![output_8_0](https://user-images.githubusercontent.com/118861107/229951280-43decbb0-574f-4ab4-82be-c9de03633c6b.png)
     
-![png](output_8_0.png)
+
     
 
 
@@ -1000,7 +951,7 @@ plot_data2(normalize_data(df['Adj Close'][stocks]['2020-01-01':'2020-12-31']), s
 plot_data2(normalize_data(df['Adj Close'][stocks]['2021-01-01':'2021-08-17']), stocks,title = '2021', ylabel = 'Cummulative return',y=1, start='2021-01-01', end = '2021-08-17') #2021
 ```
     
-![output_8_0](https://user-images.githubusercontent.com/118861107/229951280-43decbb0-574f-4ab4-82be-c9de03633c6b.png)
+
 ![output_9_0](https://user-images.githubusercontent.com/118861107/229951283-d07a12ce-548c-41c4-be33-232ef883f4a5.png)
 ![output_9_1](https://user-images.githubusercontent.com/118861107/229951284-0e725f69-ad32-40c2-a136-d39910f8a803.png)
 ![output_9_2](https://user-images.githubusercontent.com/118861107/229951286-0398614a-fb53-4f04-bcc5-a9374dd3fd50.png)
@@ -1008,6 +959,4 @@ plot_data2(normalize_data(df['Adj Close'][stocks]['2021-01-01':'2021-08-17']), s
 
 
 
-```python
 
-```
