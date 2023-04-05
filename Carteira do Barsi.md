@@ -1,8 +1,4 @@
-![output_8_0](https://user-images.githubusercontent.com/118861107/229951280-43decbb0-574f-4ab4-82be-c9de03633c6b.png)
-![output_9_0](https://user-images.githubusercontent.com/118861107/229951283-d07a12ce-548c-41c4-be33-232ef883f4a5.png)
-![output_9_1](https://user-images.githubusercontent.com/118861107/229951284-0e725f69-ad32-40c2-a136-d39910f8a803.png)
-![output_9_2](https://user-images.githubusercontent.com/118861107/229951286-0398614a-fb53-4f04-bcc5-a9374dd3fd50.png)
-```python
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -1002,23 +998,12 @@ plot_data2(normalize_data(df['Adj Close'][stocks]['2019-01-01':'2019-12-31']), s
 plot_data2(normalize_data(df['Adj Close'][stocks]['2020-01-01':'2020-12-31']), stocks,title = '2020', ylabel = 'Cummulative return',y=1, start='2020-01-01', end = '2020-12-31') #2020
 plot_data2(normalize_data(df['Adj Close'][stocks]['2021-01-01':'2021-08-17']), stocks,title = '2021', ylabel = 'Cummulative return',y=1, start='2021-01-01', end = '2021-08-17') #2021
 ```
-
-
     
-![png](output_9_0.png)
-    
-
-
-
-    
-![png](output_9_1.png)
-    
-
-
-
-    
-![png](output_9_2.png)
-    
+![output_8_0](https://user-images.githubusercontent.com/118861107/229951280-43decbb0-574f-4ab4-82be-c9de03633c6b.png)
+![output_9_0](https://user-images.githubusercontent.com/118861107/229951283-d07a12ce-548c-41c4-be33-232ef883f4a5.png)
+![output_9_1](https://user-images.githubusercontent.com/118861107/229951284-0e725f69-ad32-40c2-a136-d39910f8a803.png)
+![output_9_2](https://user-images.githubusercontent.com/118861107/229951286-0398614a-fb53-4f04-bcc5-a9374dd3fd50.png)
+```python
 
 
 
