@@ -385,9 +385,8 @@ df
 
 
 ```python
-# some missing values, and we will use the fillna method to resolve the missing values.
+#Ajustando o Dataframe eliminando valores faltantes
 
-# handing missing values
 df.fillna(method='ffill', inplace = True) # use front fill method
 df.fillna(method='bfill', inplace = True) # use back fill method
 #check to see if there are still any missing values
@@ -900,7 +899,7 @@ df[['Adj Close']].describe()
 ```python
 def plot_data2(df,stocks,title='Stock Prices',ylabel="Stock Price",y=0, start='2001-01-17', end ='2023-03-01'):
     
-    """ This function creates a plot of adjusted close stock prices
+    """ Função para criar o plot valor de fechamento ajustado
     inputs:
     df - dataframe
     title - plot title
@@ -921,7 +920,7 @@ def plot_data2(df,stocks,title='Stock Prices',ylabel="Stock Price",y=0, start='2
 
 
 ```python
-# create function that normalizes the data
+# Função para normalizar os dados
 def normalize_data(df):
     """ 
     This function normalizes the stock prices using the first row of the dataframe
@@ -933,7 +932,7 @@ def normalize_data(df):
 
 
 ```python
-# plot the data with the new normalized data
+# plot dos novos dados normalozados
 
 stocks = ["BBAS3.SA", "IRBR3.SA", "UNIP6.SA", "KLBN11.SA", "TAEE11.SA", "TASA4.SA", "SUZB3.SA"]
 
@@ -948,8 +947,7 @@ plot_data2(normalize_data(df['Adj Close'][stocks]),stocks,title = "Normalized St
 
 
 ```python
-#Cumulative Return
-#Let's have a look at how the pandemic affected stock prices for these companies.
+#Retorno acumulado das ações no tempo
 
 stocks = ["BBAS3.SA", "IRBR3.SA", "UNIP6.SA", "KLBN11.SA", "TAEE11.SA", "TASA4.SA", "SUZB3.SA"]
 
