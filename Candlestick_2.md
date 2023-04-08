@@ -1,4 +1,7 @@
- **1) Bibliotecas do codigo**
+
+**Bonus 1 Codigo CandleStick**
+
+**1) Bibliotecas do codigo**
 
 
 ```python
