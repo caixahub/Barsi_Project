@@ -7,6 +7,9 @@ import matplotlib.pyplot as plt
 
 
 ```python
+### Baixando os dados da ação com yfinance, para quem não esta acostumando com ele 
+### é necessario usar o ".SA" junto do ticker origianl da ação.
+
 Stock = pd.DataFrame(yf.Ticker('UNIP6.SA').history(period = '5y'))
 ```
 
