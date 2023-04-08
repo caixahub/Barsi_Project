@@ -1,4 +1,6 @@
 ```python
+
+#Baixando bibliotecas para analise
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -182,7 +184,7 @@ df
 
 
 ```python
-#Importando as libraries
+##Importando as libraries do Keras
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from sklearn.preprocessing import MinMaxScaler
