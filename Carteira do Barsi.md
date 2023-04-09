@@ -2,7 +2,8 @@
 
 
 ```python
-Projeto Ficando Rico com o Barsi...
+Projeto Ficando Rico com o Barsi, esse codigo trás uma carteira das "melhores" indicaçoes do Barsi, 
+contem varios codigos para analise da performace da crteira. 
 
 ```
 
