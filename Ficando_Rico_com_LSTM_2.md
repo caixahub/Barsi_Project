@@ -1,3 +1,18 @@
+
+```python
+        Usando as dicas de carteira de investimentos do Barsi propusemos uma questão é possivel ficar
+        rico usando um modelo preditor e se é qual o melhor para o projeto ?
+        
+        O LSTM é indicado por muitos o melhor modelo na atualidade para tratar series temporais mas em
+        comparação com o Keras foi nescessário mais rodadas e mais tempo com o codigo para chegar ao 
+        mesmo resultado comparando com o Keras, mas no final os dois se mostram muito bons para a finalidade.
+        
+        O projeto tem como base o exercicio do professor  Rdrigo Correia entre outros  
+        https://www.linkedin.com/pulse/prevendo-pre%C3%A7o-de-a%C3%A7%C3%B5es-com-deep-learning-lstm-rodrigo-correa/
+        foram feitas modificações para o uso do codigo, e exite uma pequena falha no codigo original
+```
+
+
 ```python
 import yfinance as yf
 import pandas as pd
