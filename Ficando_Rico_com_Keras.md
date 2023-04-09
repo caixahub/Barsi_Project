@@ -5,11 +5,12 @@
         
         Desde as primeiras rodadas o Keras se mostrou melhor preditor que o LSTM 
         embora em varias literaturas o LSTM é indicado com o melhor preditor
-        para series temporais, agora fica a criteiro de cada um por ou não 
+        para series temporais, porem no caso de ações deu Keras! Agora fica a criteiro de cada um por ou não 
         dinheiro nas previsões do modelo.
-        O projeto tem como base o exercicio do professor  Rdrigo Correia entre outros  
+        
+        O projeto tem como base o exercicio do professor  Rdrigo Correia,  
         https://www.linkedin.com/pulse/prevendo-pre%C3%A7o-de-a%C3%A7%C3%B5es-com-deep-learning-lstm-rodrigo-correa/
-        foram feitas modificações para o uso do Keras. 
+        , entre outros, no processo de estudo foram feitas modificações para o uso do Keras. 
 ```
 
 
