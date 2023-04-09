@@ -1,4 +1,17 @@
 
+
+
+
+
+```python
+        Usando as dicas de carteira de investimentos do Barsi propusemos uma questão é possivel ficar
+        rico usando um modelo preditor e se é qual o melhor para o projeto ?
+        
+        Esse é um codigo BONUS do nosso projeto, um CandleStick Plot para vc acompanhar o mercado, deixei
+        a cotação da SOJA mostrando que vc pode acompanhar varios ativos alem de ações, façam um  bom uso.
+```
+
+
 **Bonus 1 Codigo CandleStick**
 
 **1) Bibliotecas do codigo**
